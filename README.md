@@ -1,32 +1,36 @@
-# Face Attendance App
+# Face Attendance System
 
-A Python application that uses **real-time face recognition** to record attendance automatically.
----
+An AI-based face recognition attendance system developed using Python, OpenCV, DeepFace, and PyQt5.
+
+## Project Files
+- collect_faces.py : Collects face images using webcam
+- train_model.py : Trains the face recognition model
+- deepface_attendance.py : Attendance marking logic
+- app.py : Main GUI application
 
 ## Features
+- Real-time face recognition
+- Automatic attendance logging
+- Deep learning based recognition
+- Clean PyQt5 GUI
+- Start and Stop detection
 
-- Real-time face detection and recognition
-- Attendance logging with **date** and **time**
-- Start/Stop buttons to control detection
-- Dark-themed, professional GUI
-- Minimize, maximize, and close window support
-- App icon support
-- Works with a custom dataset of faces
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
 
----
+2. Collect face data:
+   python collect_faces.py
 
-## Requirements
+3. Train model:
+   python train_model.py
 
-- Python 3.10 or higher
-- OpenCV
-- DeepFace
-- PyQt5
+4. Run the app:
+   python app.py
 
----
+## Notes
+- Dataset and attendance files are excluded for privacy.
+- Ensure good lighting for best results.
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/FaceAttendanceApp.git
+## Author
+Pavan Pawar
