@@ -1,0 +1,7 @@
+opencv-python
+opencv-contrib-python
+numpy
+PyQt5
+deepface
+tensorflow==2.10.0
+tf-keras
