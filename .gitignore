@@ -1,0 +1,8 @@
+dataset/
+attendance_deepface.csv
+face_model.yml
+__pycache__/
+*.pyc
+venv/
+.env/
+.vscode/
